@@ -3,7 +3,6 @@
 A **Streamlit-based AI-powered system** for automating and managing university admissions through a **multi-agent framework**. Students can upload application documents and ask questions, while admins review reports, make decisions, and download the final admissions database.
 
 ---
-
 ## 🚀 Features
 
 - 🔹 **Student Interface**  
@@ -35,13 +34,11 @@ A **Streamlit-based AI-powered system** for automating and managing university a
    git clone https://github.com/21spl/uni-admission-ai.git
    cd uni-admission-ai
    ```
-
 2. **Install Dependencies**
    Make sure you have Python 3.9+ installed.
    ```bash
    pip install -r requirements.txt
    ```
-
 ---
 
 ## ▶️ Run the App
