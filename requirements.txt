@@ -1,43 +1,26 @@
-# UI & Display
-streamlit
+# Core UI
+streamlit>=1.28.0
 
-# PDF & DOCX Processing
-pypdf
-python-docx
-docx2txt
-openpyxl
-# LLMs & LangChain Ecosystem
-langgraph
-chromadb
+# Document Processing
+python-docx>=1.0.0
+openpyxl>=3.1.2
+PyPDF2>=3.0.0
+pypdf>=3.15.0
 
-# LlamaIndex Core + Ecosystem (all compatible with core 0.12.33)
-llama-index
-llama-index-llms-gemini
-llama-index-core
-llama-index-embeddings-huggingface
-llama-index-vector-stores-chroma
-llama-index-tools-google
-llama-index-callbacks-arize-phoenix
-llama-index-llms-huggingface-api
+# LLM & Vector Store
+llama-index-core>=0.12.30
+llama-index-llms-gemini>=0.1.0
+llama-index-embeddings-huggingface>=0.1.0
+llama-index-vector-stores-chroma>=0.1.0
+chromadb>=0.4.0
+langgraph>=0.0.15
 
+# Agent Framework
+litellm>=1.0.0
 
-
-
-
-# Hugging Face
-huggingface_hub
-datasets
-
-# Agent Frameworks
-smolagents
-litellm
-
-# Google APIs
-google-auth
-google-auth-oauthlib
-google-auth-httplib2
-google-api-python-client
+# Google Integration
+google-api-python-client>=2.0.0
 
 # Utilities
-pandas
-python-dotenv
+pandas>=2.0.0
+python-dotenv>=1.0.0
